@@ -1,7 +1,7 @@
-#[tailsjoin](https://github.com/tailsjoin/tailsjoin/wiki)
-##Scripts to install [JoinMarket](https://github.com/chris-belcher/joinmarket), [libsodium](https://download.libsodium.org/doc/), and [Bitcoin Core](https://bitcoin.org/en/download) on the [Tails OS](https://tails.boum.org).
+# [tailsjoin](https://github.com/tailsjoin/tailsjoin/wiki)
+## Scripts to install [JoinMarket](https://github.com/chris-belcher/joinmarket), [libsodium](https://download.libsodium.org/doc/), and [Bitcoin Core](https://bitcoin.org/en/download) on the [Tails OS](https://tails.boum.org).
 
-###Options for TAILS:
+### Options for TAILS:
 
 1. Run `tailsjoin.sh` on a minimal system without enough disk space to store the blockchain. This will use blockr.io (Coinbase) to check address balances and confirmed transactions. This is over Tor, of course, but still not optimal for privacy. [Detailed Guide Minimal](https://tailsjoin.github.io/guides/install_guide.html#withoutbitcoin)
 
@@ -9,7 +9,7 @@
 
 ---
 
-###For a minimal system follow the steps below, or use the guides in the wiki.
+### For a minimal system follow the steps below, or use the guides in the wiki.
 
 You must start Tails with "More options" setting in the beginning (Persistence is optional) and set an administrator password no matter which script you run.
 
@@ -33,19 +33,19 @@ Examples:
 
 ---
 
-####[Detailed install and send payment guide.](https://github.com/tailsjoin/tailsjoin/wiki/Detailed-Minimal-Setup-Guide)
+#### [Detailed install and send payment guide.](https://github.com/tailsjoin/tailsjoin/wiki/Detailed-Minimal-Setup-Guide)
 
-####[Orderbook Watcher Hidden Service](http://ruc47yiosooolrzw.onion/)
+#### [Orderbook Watcher Hidden Service](http://ruc47yiosooolrzw.onion/)
 
-####[tailsjoin.github.io](https://tailsjoin.github.io) (guides and stuff, under construction)
-
----
-
-####Tailsjoin donation address: `17SidXk5PTGeVgfGg1DC2a2ryduJ3ajtad`
+#### [tailsjoin.github.io](https://tailsjoin.github.io) (guides and stuff, under construction)
 
 ---
 
-##Official JoinMarket Project Information:
+#### Tailsjoin donation address: `17SidXk5PTGeVgfGg1DC2a2ryduJ3ajtad`
+
+---
+
+## Official JoinMarket Project Information:
 
 IRC: `#joinMarket` on irc.freenode.net https://webchat.freenode.net/?channels=%23joinmarket
 
@@ -57,13 +57,13 @@ Twitter: https://twitter.com/joinmarket
 
 JoinMarket Donation address: `1AZgQZWYRteh6UyF87hwuvyWj73NvWKpL`
 
-####[JOINMARKET OFFICIAL WIKI FOR DETAILED ARTICLES/GUIDES](https://github.com/chris-belcher/joinmarket/wiki)
+#### [JOINMARKET OFFICIAL WIKI FOR DETAILED ARTICLES/GUIDES](https://github.com/chris-belcher/joinmarket/wiki)
 
 ---
 
-####Consider donating to JoinMarket development when using the tumbler. 
+#### Consider donating to JoinMarket development when using the tumbler. 
 
-#####To opt-in, run the tumbler like this (with `x.x` being your donation percent):
+##### To opt-in, run the tumbler like this (with `x.x` being your donation percent):
 
     torify python tumbler.py --donateamount=x.x
     
